@@ -28,6 +28,7 @@ class ContactsPageLocators():
     JOB_LEVEL = (By.XPATH, "//select[@name='job_level']")
     EMAIL = (By.XPATH, "//input[starts-with(@id, 'email')]")
     PHONE = (By.XPATH, "//input[contains(@id, 'phone')]")
+    HOW_DID_YOU_HEAR = (By.XPATH, "//select[starts-with(@name, 'how_did_you')]")
     REQUEST_TYPE = (By.XPATH, "//select[@name='request_type']")
     SUBMIT = (By.XPATH, "//input[@type='submit']")
     ALERTMESSAGE = (By.XPATH, "//label[@class='hs-main-font-element']")
